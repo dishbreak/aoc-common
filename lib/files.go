@@ -21,7 +21,6 @@ func GetInput(filename string) ([]string, error) {
 		result = append(result, s.Text())
 	}
 
-	result = append(result, "")
 	return result, nil
 }
 
